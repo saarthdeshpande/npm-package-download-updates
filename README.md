@@ -1,4 +1,4 @@
-# npm-updates
+# npm-package-download-updates
 
 Deployed an NPM package, and want to keep track of the weekly downloads? Why visit every week, when you can have Telegram notify you when you desire?
 
