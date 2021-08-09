@@ -6,9 +6,9 @@ import weasyprint as wsp
 import PIL as pil
 import os
 
-TOKEN = <YOUR_TELEGRAM_BOT_TOKEN>
-PACKAGE_NAME = <YOUR_NPM_PACKAGE_NAME>
-TELEGRAM_CHAT_ID = <YOUR_TELEGRAM_CHAT_ID> # to find your chat_id, refer: https://stackoverflow.com/a/37396871
+TOKEN = os.environ.get('TOKEN')
+PACKAGE_NAME = os.environ.get('PACKAGE_NAME')
+TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID') # to find your chat_id, refer: https://stackoverflow.com/a/37396871
 
 bot = telebot.TeleBot(token=TOKEN)
 
